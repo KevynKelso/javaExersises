@@ -20,7 +20,7 @@ LITERALLY. This is good for printing out multiline strings
 pass JavaScript variables into template literals using 
 ${variable_name} notation.
 
-MOST programming languages us zero-based indexing. 
+MOST programming languages use zero-based indexing. 
 JavaScript is no exception. Sice our array is zero-based
 indexed, we must add 1 to have the numbering start at 1.
 ------------------------------------------------------------ */

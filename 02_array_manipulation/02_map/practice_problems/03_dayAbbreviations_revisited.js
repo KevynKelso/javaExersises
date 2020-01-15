@@ -11,3 +11,9 @@ Hint:
 Recall the slice() method.
 ------------------------------------------------------------ */
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+const abbreviatedDays = daysOfWeek.map((day) => {
+  return day[0] + day[1] + day[2]
+})
+
+console.log(abbreviatedDays)

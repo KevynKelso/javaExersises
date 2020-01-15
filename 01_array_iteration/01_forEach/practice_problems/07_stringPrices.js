@@ -10,3 +10,12 @@ Hint:
 Use the parseFloat() method.
 ------------------------------------------------------------ */
 const stringPrices = ['5.47', '3.12', '8.00', '5.63', '10.70'];
+
+let total = 0.00
+
+stringPrices.forEach((price) => {
+    price = parseFloat(price)
+    total += price
+})
+
+console.log(total)

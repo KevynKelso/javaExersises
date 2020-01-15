@@ -10,3 +10,15 @@ to store the new strings:
 let sNames = [];
 ------------------------------------------------------------ */
 const names = ['Selma', 'Ted', 'Mike', 'Sam', 'Sharon', 'Marvin'];
+
+let sNames = [];
+
+names.forEach((sName) => {
+    sName[0].toLocaleLowerCase() === "s" 
+        ? 
+            sNames.push(sName) 
+        : 
+            null
+});
+
+console.log(sNames);

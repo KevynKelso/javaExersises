@@ -5,3 +5,11 @@
 // Result Should be: ['Selma', 'Sam', 'Sharon'];
 // ------------------------------------------------------------
 const names = ['Selma', 'Ted', 'Mike', 'Sam', 'Sharon', 'Marvin'];
+
+let sNames = names.filter((name) => {
+  return name[0].toLocaleLowerCase() === "s" 
+    ? name
+    : null
+})
+
+console.log(sNames)

@@ -22,3 +22,25 @@ by 2.
 divided by 2.
 ------------------------------------------------------------ */
 const numbers = [1,2,3,4,5,6,7,8,9,10];
+
+let withOut3 = numbers.filter((number) => {
+  return number !== 3
+  ? number
+  : null
+})
+
+let only2 = numbers.filter((number) => {
+  return number === 2
+  ? number
+  : null
+})
+
+let onlyEven = numbers.filter((number) => {
+  return number%2 === 0
+  ? number
+  : null
+})
+
+console.log(withOut3)
+console.log(only2)
+console.log(onlyEven)
